@@ -5,7 +5,8 @@
   "main": "css/circle.css",
   "author": "Mike P.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/gulp build"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,10 @@
     "less",
     "sass"
   ],
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "git://github.com/gulpjs/gulp.git#4.0",
+    "gulp-less": "^3.3.0",
+    "gulp-rename": "^1.2.2"
+  }
 }
