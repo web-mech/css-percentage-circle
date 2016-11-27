@@ -230,7 +230,7 @@
   border-radius: 50%;
   float: left;
   margin: 0 0.1em 0.1em 0;
-  background-color: #cccccc;
+  background-color: #ccc;
 }
 .c100 *,
 .c100 *:before,
@@ -249,6 +249,9 @@
 .c100.small {
   font-size: 80px;
 }
+.c100.micro {
+  font-size: 30px;
+}
 .c100 > span {
   position: absolute;
   width: 100%;
@@ -258,7 +261,7 @@
   width: 5em;
   line-height: 5em;
   font-size: 0.2em;
-  color: #cccccc;
+  color: #ccc;
   display: block;
   text-align: center;
   white-space: nowrap;
@@ -1020,17 +1023,17 @@
   height: 0.92em;
 }
 .c100.dark {
-  background-color: #777777;
+  background-color: #777;
 }
 .c100.dark .bar,
 .c100.dark .fill {
   border-color: #c6ff00 !important;
 }
 .c100.dark > span {
-  color: #777777;
+  color: #777;
 }
 .c100.dark:after {
-  background-color: #666666;
+  background-color: #666;
 }
 .c100.dark:hover > span {
   color: #c6ff00;
