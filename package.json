@@ -1,6 +1,6 @@
 {
   "name": "css-percentage-circle",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "A javascript-less percentage circle",
   "main": "css/circle.css",
   "author": "Mike P.",
