@@ -1,7 +1,7 @@
 {
   "name": "css-percentage-circle",
   "version": "0.1.0",
-  "description": "A javascript-less percentage cirle",
+  "description": "A javascript-less percentage circle",
   "main": "css/circle.css",
   "author": {
     "name": "Mike P. André Firchow. afuersch",
