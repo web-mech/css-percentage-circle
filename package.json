@@ -1,0 +1,27 @@
+{
+  "name": "css-percentage-circle",
+  "version": "0.1.0",
+  "description": "A javascript-less percentage cirle",
+  "main": "css/circle.css",
+  "author": {
+    "name": "Mike P. André Firchow. afuersch",
+    "email": "webmech@gmail.com",
+    "url": "http://circle.firchow.net/"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "githubp:web-mech/css-percentage-circle.git"
+  },
+  "keywords": [
+    "percentage",
+    "circle",
+    "css",
+    "less",
+    "sass"
+  ],
+  "author": "Mike P.",
+  "license": "ISC"
+}
