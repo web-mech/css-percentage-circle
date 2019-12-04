@@ -6,7 +6,9 @@
   "author": "Mike P.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "./node_modules/.bin/gulp build"
+    "build": "./node_modules/.bin/gulp build",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "repository": {
     "type": "git",
@@ -25,8 +27,12 @@
   ],
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@storybook/html": "^5.2.8",
+    "babel-loader": "^8.0.6",
     "gulp": "git://github.com/gulpjs/gulp.git#4.0",
     "gulp-less": "^3.3.0",
     "gulp-rename": "^1.2.2"
-  }
+  },
+  "dependencies": {}
 }
