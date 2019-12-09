@@ -7,6 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
+    "build": "sass scss/circle.scss css/circle.css",
     "build-storybook": "build-storybook"
   },
   "repository": {
