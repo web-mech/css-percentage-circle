@@ -36,29 +36,41 @@
     width: 1em;
     height: 1em;
     border-radius: 50%;
-    float: left;
-    margin: 0 0.1em 0.1em 0;
     background-color: $secondary-color;
 
     // center circle to its parent
-    &.center{
+    &.center {
         float: none;
         margin: 0 auto;
     }
 
-    // bigger size
-    &.big{
+    &.no-value {
+        > span {
+            display: none;
+        }
+    }
+
+    &.huge {
         font-size: 240px;
     }
 
-    // smaller size
-    &.small{
+    &.large {
         font-size: 80px;
     }
 
-    // even smaller size
-    &.micro{
+    &.medium {
+        font-size: 50px;
+    }
+
+    &.small{
         font-size: 30px;
+    }
+
+    &.micro {
+        font-size: 15px;
+        > span {
+            display: none;
+        }
     }
 
     // centered value inside circle
