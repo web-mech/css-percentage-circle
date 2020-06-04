@@ -30,8 +30,6 @@
   width: 1em;
   height: 1em;
   border-radius: 50%;
-  float: left;
-  margin: 0 0.1em 0.1em 0;
   background-color: #ccc;
 }
 .c100 *, .c100 *:before, .c100 *:after {
@@ -43,14 +41,26 @@
   float: none;
   margin: 0 auto;
 }
-.c100.big {
+.c100.no-value > span {
+  display: none;
+}
+.c100.huge {
   font-size: 240px;
 }
-.c100.small {
+.c100.large {
   font-size: 80px;
 }
-.c100.micro {
+.c100.medium {
+  font-size: 50px;
+}
+.c100.small {
   font-size: 30px;
+}
+.c100.micro {
+  font-size: 15px;
+}
+.c100.micro > span {
+  display: none;
 }
 .c100 > span {
   position: absolute;
